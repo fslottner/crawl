@@ -2683,3 +2683,17 @@ xx...xx....xx
 ...x.....x...
 ...xx...xx...
 ENDMAP
+
+NAME:   dysonsfear_arrival_rainbow_octagon
+TAGS:   arrival no_monster_gen
+ORIENT: float
+WEIGHT: 50000
+COLOUR: A = red, B = orange, C = yellow, D = green, E = blue
+SUBST: A = b, B = b, C = b, D = b, E = b, F = b, G = b, H = b
+MAP
+.....
+..{..
+.....
+ABCDE
+.....
+ENDMAP
