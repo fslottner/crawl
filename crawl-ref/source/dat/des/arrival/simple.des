@@ -2688,12 +2688,17 @@ NAME:   dysonsfear_arrival_rainbow_octagon
 TAGS:   arrival no_monster_gen
 ORIENT: float
 WEIGHT: 50000
-COLOUR: A = red, B = orange, C = yellow, D = green, E = blue
-SUBST: A = b, B = b, C = b, D = b, E = b, F = b, G = b, H = b
+COLOUR: A = red, B = fire, C = yellow, D = green, E = blue
+SUBST:  ABCDEFGHIJKLMNOPQRSTUVWXYZ12345 = b
 MAP
-.....
-..{..
-.....
-ABCDE
-.....
+..ABCDE..
+.45...FG.
+23.....HI
+1.......J
+Z...{...K
+Y.......L
+XW.....NM
+.VU...PO.
+..TS+QR..
+....@....
 ENDMAP
